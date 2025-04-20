@@ -42,7 +42,7 @@ export function NavbarNested<T extends React.ElementType = typeof React.Fragment
                             onClick={onCloseClick}
                             variant="transparent"
                             aria-label="Mobile close navbar button"
-                            hiddenFrom="sm"
+                            hiddenFrom="md"
                         >
                             <IconX />
                         </ActionIcon>

@@ -1,5 +1,11 @@
-import { createTheme } from '@mantine/core';
+import { createTheme } from "@mantine/core";
 
 export const theme = createTheme({
-    /** Put your mantine theme override here */
+    breakpoints: {
+        xs: "32em",
+        sm: "40em",
+        md: "48em",
+        lg: "64em",
+        xl: "80em",
+    },
 });
